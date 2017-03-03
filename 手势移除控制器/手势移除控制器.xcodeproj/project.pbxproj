@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926938731E6931FF008EA0A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926938721E6931FF008EA0A2 /* AppDelegate.swift */; };
+		926938781E6931FF008EA0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926938761E6931FF008EA0A2 /* Main.storyboard */; };
+		9269387A1E6931FF008EA0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926938791E6931FF008EA0A2 /* Assets.xcassets */; };
+		9269387D1E6931FF008EA0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9269387B1E6931FF008EA0A2 /* LaunchScreen.storyboard */; };
+		926938851E69322C008EA0A2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926938841E69322C008EA0A2 /* NavigationController.swift */; };
+		926938871E69323B008EA0A2 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926938861E69323B008EA0A2 /* OneViewController.swift */; };
+		926938891E693244008EA0A2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926938881E693244008EA0A2 /* SecondViewController.swift */; };
+		9269388B1E69324B008EA0A2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269388A1E69324B008EA0A2 /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9269386F1E6931FF008EA0A2 /* 手势移除控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势移除控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926938721E6931FF008EA0A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926938771E6931FF008EA0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926938791E6931FF008EA0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9269387C1E6931FF008EA0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9269387E1E6931FF008EA0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926938841E69322C008EA0A2 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		926938861E69323B008EA0A2 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		926938881E693244008EA0A2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9269388A1E69324B008EA0A2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9269386C1E6931FF008EA0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926938661E6931FE008EA0A2 = {
+			isa = PBXGroup;
+			children = (
+				926938711E6931FF008EA0A2 /* 手势移除控制器 */,
+				926938701E6931FF008EA0A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926938701E6931FF008EA0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9269386F1E6931FF008EA0A2 /* 手势移除控制器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926938711E6931FF008EA0A2 /* 手势移除控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				926938721E6931FF008EA0A2 /* AppDelegate.swift */,
+				926938841E69322C008EA0A2 /* NavigationController.swift */,
+				926938861E69323B008EA0A2 /* OneViewController.swift */,
+				926938881E693244008EA0A2 /* SecondViewController.swift */,
+				9269388A1E69324B008EA0A2 /* ThirdViewController.swift */,
+				926938761E6931FF008EA0A2 /* Main.storyboard */,
+				926938791E6931FF008EA0A2 /* Assets.xcassets */,
+				9269387B1E6931FF008EA0A2 /* LaunchScreen.storyboard */,
+				9269387E1E6931FF008EA0A2 /* Info.plist */,
+			);
+			path = "手势移除控制器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9269386E1E6931FF008EA0A2 /* 手势移除控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926938811E6931FF008EA0A2 /* Build configuration list for PBXNativeTarget "手势移除控制器" */;
+			buildPhases = (
+				9269386B1E6931FF008EA0A2 /* Sources */,
+				9269386C1E6931FF008EA0A2 /* Frameworks */,
+				9269386D1E6931FF008EA0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势移除控制器";
+			productName = "手势移除控制器";
+			productReference = 9269386F1E6931FF008EA0A2 /* 手势移除控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926938671E6931FE008EA0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SLZeng;
+				TargetAttributes = {
+					9269386E1E6931FF008EA0A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9269386A1E6931FE008EA0A2 /* Build configuration list for PBXProject "手势移除控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926938661E6931FE008EA0A2;
+			productRefGroup = 926938701E6931FF008EA0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9269386E1E6931FF008EA0A2 /* 手势移除控制器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9269386D1E6931FF008EA0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9269387D1E6931FF008EA0A2 /* LaunchScreen.storyboard in Resources */,
+				9269387A1E6931FF008EA0A2 /* Assets.xcassets in Resources */,
+				926938781E6931FF008EA0A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9269386B1E6931FF008EA0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926938891E693244008EA0A2 /* SecondViewController.swift in Sources */,
+				926938871E69323B008EA0A2 /* OneViewController.swift in Sources */,
+				9269388B1E69324B008EA0A2 /* ThirdViewController.swift in Sources */,
+				926938731E6931FF008EA0A2 /* AppDelegate.swift in Sources */,
+				926938851E69322C008EA0A2 /* NavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926938761E6931FF008EA0A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926938771E6931FF008EA0A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9269387B1E6931FF008EA0A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9269387C1E6931FF008EA0A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9269387F1E6931FF008EA0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		926938801E6931FF008EA0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926938821E6931FF008EA0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手势移除控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		926938831E6931FF008EA0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手势移除控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9269386A1E6931FE008EA0A2 /* Build configuration list for PBXProject "手势移除控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9269387F1E6931FF008EA0A2 /* Debug */,
+				926938801E6931FF008EA0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926938811E6931FF008EA0A2 /* Build configuration list for PBXNativeTarget "手势移除控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926938821E6931FF008EA0A2 /* Debug */,
+				926938831E6931FF008EA0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926938671E6931FE008EA0A2 /* Project object */;
+}
